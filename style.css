@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background: #3e5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3e5151, #decba4);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3e5151, #decba4);
+  font-size: 24px;
+}
+
+#clock {
+  width: 24em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#clock>div {
+  margin: 0.5em;
+  border-radius: 300px;
+  width: 1em;
+  height: 1em;
+  background: #f1f1f1;
+}
+
+
+@media (max-width:700px) {
+  body {
+    font-size: 14px;
+  }
+}

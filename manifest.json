@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Open",
+  "version": "0.1",
+  "description": "Visualise your day into ten minute blocks. ",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_scripts": [{
+    "js": ["script.js"]
+  }]
+}
