@@ -15,6 +15,6 @@ Visualise your day into ten minute blocks.
 ## Start a server
 1. Open a terminal on Mac
 2. `cd Downloads/open` — replace Downloads/open with the path to your project
-3. python -m SimpleHTTPServer
-4. in your browser, go to localhost:8000
-5. ctrl + c to turn off the server
+3. `python -m SimpleHTTPServer`
+4. in your browser, go to `localhost:8000`
+5. CTRL + C to turn off the server
